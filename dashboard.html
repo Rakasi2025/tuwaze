@@ -1,34 +1,60 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Dashboard | TUWAZE</title>
+  <meta charset="UTF-8">
+  <title>Submission Form | TUWAZE</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header>
-  <h1>Transparency Dashboard</h1>
+  <h1>TUWAZE Submission Form</h1>
+  <p>Submit information securely</p>
 </header>
 
 <nav>
-  <a href="index.html">Home</a>
-  <a href="about.html">About</a>
+  <a href="home.html">Home</a>
   <a href="services.html">Services</a>
-  <a href="dashboard.html">Dashboard</a>
+  <a href="report.html">Report</a>
+  <a href="forum.html">Forum</a>
+  <a href="anonymous-tips.html">Anonymous Tips</a>
   <a href="contact.html">Contact</a>
 </nav>
 
 <section>
-  <h2>Public Projects</h2>
-  <p>Track government-funded projects by ward and department.</p>
+  <h2>Fill in the Form</h2>
 
-  <h2>Service Performance</h2>
-  <p>View response times and resolution rates.</p>
+  <form>
+    <label>Full Name</label><br>
+    <input type="text" placeholder="Your name"><br><br>
+
+    <label>Email Address</label><br>
+    <input type="email" placeholder="example@email.com"><br><br>
+
+    <label>Category</label><br>
+    <select>
+      <option>Community Report</option>
+      <option>Anonymous Tip</option>
+      <option>Forum Topic</option>
+      <option>Legal Support Request</option>
+      <option>GovConnect Question</option>
+    </select><br><br>
+
+    <label>Message</label><br>
+    <textarea rows="5" placeholder="Write your message here..."></textarea><br><br>
+
+    <label>
+      <input type="checkbox"> Submit anonymously
+    </label><br><br>
+
+    <button type="submit">Submit</button>
+  </form>
 </section>
 
 <footer>
-  <p>&copy; 2026 TUWAZE</p>
+  <p>&copy; 2026 TUWAZE | Eldoret</p>
 </footer>
 
 </body>
 </html>
+
